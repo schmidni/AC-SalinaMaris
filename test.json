@@ -1,0 +1,18 @@
+{
+    "contact": {
+        "email": "johndoe@example.com",
+        "firstName": "John",
+        "lastName": "Doe",
+        "phone": "7223224241",
+        "fieldValues": [
+            {
+                "field": "1",
+                "value": "The Value for First Field"
+            },
+            {
+                "field": "6",
+                "value": "2008-01-20"
+            }
+        ]
+    }
+}
