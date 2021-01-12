@@ -1,3 +1,4 @@
+from flask.helpers import make_response
 import requests
 import warnings
 from config import Config
@@ -51,6 +52,24 @@ def get_list_id(list_name: str):
     return lists["lists"][0]["id"]
 
 
+def get_tag_id(tag_name: str):
+    """ Finds the internal id of the specified tag.
+
+    Returns: id of tag or None if tag not found
+    """
+    # https://developers.activecampaign.com/reference#retrieve-all-tags
+
+    # query all tags and filter by tag name
+    tags = _get_response("tags", params={"search": tag_name}).json()
+
+    # return None if no tag by this name found
+    if len(tags["tags"]) < 1:
+        return None
+
+    # else return id of first tag found
+    return tags["tags"][0]["id"]
+
+
 def _create_contact(contact: dict):
     """Create contact object which can be posted to the AC api
 
@@ -98,4 +117,16 @@ def subscribe_contact_to_list(contact_id: int, list_id: int):
         "status": 1,
     }}
     response = _post_object('contactLists', data)
+    return response
+
+
+def add_tag_to_contact(tag_id: int, contact_id: int):
+    """adds a tag to the specified contact"""
+    # https://developers.activecampaign.com/reference#contact-tags
+
+    data = {"contactTag": {
+        "contact": contact_id,
+        "tag": tag_id,
+    }}
+    response = _post_object("contactTags", data)
     return response
