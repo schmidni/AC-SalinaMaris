@@ -73,7 +73,7 @@ def _create_contact(contact: dict):
     """Create contact object which can be posted to the AC api
 
     Args: flat dictionary with all the information for the contact
-      Field 'email' with a valid email address is required. 
+      Field 'email' with a valid email address is required.
     Returns: nested object which can directly be used for the AC api
     """
     # https://developers.activecampaign.com/reference#create-or-update-contact-new
