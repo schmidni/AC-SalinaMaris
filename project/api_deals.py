@@ -46,7 +46,7 @@ def _create_deal(deal: dict):
     """Create deal object which can be posted to the AC api
 
     Args: flat dictionary with all the informtion for the deal
-      Required fiels are 'contact', 'title', 'value.
+      Required fiels are 'contact', 'title', 'value' if a new deal should be created
     Returns: nested object which can directly be used for the AC api
     """
     # https://developers.activecampaign.com/reference#create-a-deal-new
