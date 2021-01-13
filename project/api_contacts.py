@@ -1,4 +1,3 @@
-from flask.helpers import make_response
 import requests
 import warnings
 from config import Config
@@ -74,6 +73,7 @@ def _create_contact(contact: dict):
     """Create contact object which can be posted to the AC api
 
     Args: flat dictionary with all the information for the contact
+      Field 'email' with a valid email address is required. 
     Returns: nested object which can directly be used for the AC api
     """
     # https://developers.activecampaign.com/reference#create-or-update-contact-new
@@ -93,13 +93,19 @@ def _create_contact(contact: dict):
                 ac_contact["fieldValues"].append({"field": id, "value": v})
             else:
                 warnings.warn(
-                    "The field {} is unknown and was ignored.".format(k))
+                    "The field {} is unknown and was ignored.".format(k)
+                )
 
     return {"contact": ac_contact}
 
 
 def post_contact(contact: dict):
-    """sends a new contact to AC using the 'create or update' contact endpoint"""
+    """sends a new contact to AC using the 'create or update' contact endpoint
+
+    Args: flat dictionary with all the information for the contact
+      Field 'email' with a valid email address is required. 
+    Returns: AC contact object or error description
+    """
     # https://developers.activecampaign.com/reference#create-or-update-contact-new
 
     ac_contact = _create_contact(contact)
