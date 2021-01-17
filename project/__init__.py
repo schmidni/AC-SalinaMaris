@@ -1,4 +1,5 @@
 from project.blueprints.frontend import frontend
+from project.blueprints.payment import payment
 from flask import Flask, render_template
 from config import Config
 import logging
@@ -28,7 +29,7 @@ if not app.debug:
 
 # import and register blueprints
 app.register_blueprint(frontend)
-
+app.register_blueprint(payment)
 # init extensions
 csrf.init_app(app)
 assets.init_app(app)

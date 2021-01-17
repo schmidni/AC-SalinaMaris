@@ -12,6 +12,9 @@
     <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='img/favicon.svg')}}">
     <link rel="mask-icon" href="{{ url_for('static', filename='img/icon.svg')}}" color="blue">
 
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.11/dist/css/uikit.min.css" />
+
     {% assets "css_bundle" %}
     <link rel="stylesheet" href="{{ ASSET_URL }}">
     </link>
@@ -24,6 +27,9 @@
     {% assets "js_bundle" %}
     <script type="text/javascript" src="{{ ASSET_URL }}" async></script>
     {% endassets %}
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.11/dist/js/uikit.min.js"></script>
 
 </body>
 

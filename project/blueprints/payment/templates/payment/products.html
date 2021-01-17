@@ -1,0 +1,28 @@
+{% extends 'layouts/base.html' %}
+
+{% block description -%} Product Page {%- endblock %}
+
+{% block title -%} Products {%- endblock %}
+
+{% block body%}
+
+
+<h1>Kaufe Gutscheine</h1>
+
+<div class="uk-child-width-1-5@m" uk-grid>
+    {% for a in angebote %}
+    <div>
+        <a href="#" class="sa-buy uk-display-block uk-card uk-card-hover uk-card-default uk-link-toggle" data-id="{{loop.index0}}">
+            <div class="uk-card-body">
+                <h3 class="uk-card-title uk-link-heading">{{a.title}}</h3>
+                <p>{{a.subtitle}}</p>
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
+
+<script src="https://js.stripe.com/v3/"></script>
+<script src="{{ url_for('static', filename='js/scripts_stripe.js') }}"></script>
+{% endblock %}
