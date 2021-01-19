@@ -1,378 +1,494 @@
 [
     {
+        "id": "gutscheinSA01",
         "title": "Doppelzimmer Classic",
         "subtitle": "1 Übernachtung für 2 Personen im DZ Classic mit Frühstücksbuffet, Solbad + Wellness",
         "image": "images/Gutschein/GUT_CL.jpg",
         "alt": "Doppelzimmer Classic",
         "price": 240,
-        "categories": ["Hotel"],
-        "details":{
+        "categories": [
+            "Hotel"
+        ],
+        "details": {
             "description": " ",
-            "services": [   "Eine Übernachtung für 2 Personen im DZ Classic im Badehotel Salina Maris",
-                            "Reichhaltiges Frühstücksbuffet",
-                            "Benützung von Solbad, Sauna, Dampfbad und Fitness" ],
+            "services": [
+                "Eine Übernachtung für 2 Personen im DZ Classic im Badehotel Salina Maris",
+                "Reichhaltiges Frühstücksbuffet",
+                "Benützung von Solbad, Sauna, Dampfbad und Fitness"
+            ],
             "info": " "
         },
         "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=7",
         "active": true
     },
     {
-    "title": "Doppelzimmer Superior",
-    "subtitle": "1 Übernachtung für 2 Pers. im DZ Superior, Frühstücksbuffet, Solbad, Wellness",
-    "image": "images/Gutschein/GUT_SU.jpg",
-    "alt": "Doppelzimmer Superior",
-    "price": 260,
-    "categories": ["Hotel"],
-    "details":{
-        "description": " ",
-        "services": [   "Eine Übernachtung für 2 Personen im DZ Superior im Badehotel Salina Maris",
-                        "Reichhaltiges Frühstücksbuffet",
-                        "Benützung von Solbad, Sauna, Dampfbad und Fitness" ],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=8",
-    "active": true
-    },
-    {
-    "title": "Junior-Suite Wellness",
-    "subtitle": "1 Übernachtung in der Junior-Suite Wellness mit Whirlpool für 2 Personen",
-    "image": "images/Gutschein/GUT_JU.jpg",
-    "alt": "Junior-Suite Wellness",
-    "price": 330,
-    "categories": ["Hotel"],
-    "details":{
-        "description": "Romantisches Hide-away",
-        "services": [   "1 Übernachtung für 2 Personen  in der Junior-Suite Wellness im Badehotel Salina Maris****",
-                        "reichhaltiges Frühstücksbuffet",
-                        "Eintritt in Solebad, Sauna, Dampfbad und Fitness",
-                        "Whirlpool für 2 Personen im Zimmer"],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=9",
-    "active": true
+        "id": "gutscheinSA02",
+        "title": "Doppelzimmer Superior",
+        "subtitle": "1 Übernachtung für 2 Pers. im DZ Superior, Frühstücksbuffet, Solbad, Wellness",
+        "image": "images/Gutschein/GUT_SU.jpg",
+        "alt": "Doppelzimmer Superior",
+        "price": 260,
+        "categories": [
+            "Hotel"
+        ],
+        "details": {
+            "description": " ",
+            "services": [
+                "Eine Übernachtung für 2 Personen im DZ Superior im Badehotel Salina Maris",
+                "Reichhaltiges Frühstücksbuffet",
+                "Benützung von Solbad, Sauna, Dampfbad und Fitness"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=8",
+        "active": true
     },
     {
-    "title": "Wander Weekend",
-    "subtitle": "2 Übernachtungen im Badehotel Salina Maris inkl. Wanderpass für 1 Tag",
-    "image": "images/Gutschein/GUT_WA.jpg",
-    "alt": "Zeichnung des Aletschgletschers",
-    "price": 556,
-    "categories": ["Hotel", "Weekend"],
-    "details":{
-        "description": "Wandern in der Aletsch Arena am längsten Gletscher der Alpen und Baden im grössten Wellnessbereich der Aletsch Arena.",
-        "services": [   "2 Übernachtungen für 2 Personen  im Doppelzimmer Superior im Badehotel Salina Maris****",
-                        "reichhaltiges Frühstücksbuffet",
-                        "Eintritt in Solebad, Sauna, Dampfbad und Fitness",
-                        "1 Tages-Wanderpass der Aletsch Arena für 2 Personen" ],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=11",
-    "active": true
-    },
-    {
-    "title": "Skiweekend",
-    "subtitle": "2 Übernachtungen im DZ Superior, 1 Tages-Skipass der Aletsch Arena",
-    "image": "images/Gutschein/GUT_SK.jpg",
-    "alt": "Skifahrer auf der Piste",
-    "price": 590,
-    "categories": ["Hotel", "Weekend"],
-    "details":{
-        "description": "In der Aletsch Arena warten über 100 km Skipisten auf Sie! Gleichzeitig profitieren Sie im Badehotel Salina Maris vom grössten Wellnessangebot in der Aletsch Arena.",
-        "services": ["2 Übernachtungen für 2 Personen im Doppelzimmer Superior im Badehotel Salina Maris****",
-                        "Reichhaltiges Frühstücksbuffet",
-                        "Eintritt in Solebad, Sauna, Dampfbad und Fitness",
-                        "1 Tages-Skipass der Aletsch Arena für 2 Personen"],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=12",
-    "active": false
+        "id": "gutscheinSA03",
+        "title": "Junior-Suite Wellness",
+        "subtitle": "1 Übernachtung in der Junior-Suite Wellness mit Whirlpool für 2 Personen",
+        "image": "images/Gutschein/GUT_JU.jpg",
+        "alt": "Junior-Suite Wellness",
+        "price": 330,
+        "categories": [
+            "Hotel"
+        ],
+        "details": {
+            "description": "Romantisches Hide-away",
+            "services": [
+                "1 Übernachtung für 2 Personen  in der Junior-Suite Wellness im Badehotel Salina Maris****",
+                "reichhaltiges Frühstücksbuffet",
+                "Eintritt in Solebad, Sauna, Dampfbad und Fitness",
+                "Whirlpool für 2 Personen im Zimmer"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=9",
+        "active": true
     },
     {
-    "title": "Wellness-Weekend",
-    "subtitle": "2 Übernachtungen für 2 Personen inkl. 2 Lomi Lomi Tempelmassagen",
-    "image": "images/Gutschein/GUT_WE.jpg",
-    "alt": "Paar im Solebad",
-    "price": 795,
-    "categories": ["Hotel", "Weekend"],
-    "details":{
-        "description": "Inkl. 1 Lomi Lomi Tempelmassage pro Person",
-        "services": [   "2 Übernachtungen für 2 Personen  im Doppelzimmer Superior im Badehotel Salina Maris****",
-                        "reichhaltiges Frühstücksbuffet",
-                        "Eintritt in Solebad, Sauna, Dampfbad und Fitness",
-                        "Pro Person eine Lomi Lomi Tempelmassage à ca. 80 Min."],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=10",
-    "active": true
-    },
-    {
-    "title": "Zeitinsel Im Urmeer",
-    "subtitle": "3 Übernachtungen, Frühstücksubffet, Solbad, Wellness, Massage und Solarium",
-    "image": "images/Gutschein/GUT_ZEI.jpg",
-    "alt": "Steinmänner über dem Aletschgletscher",
-    "price": 822,
-    "categories": ["Hotel"],
-    "details":{
-        "description": "Entspannen Sie im Urmeer in den Alpen, geniessen Sie die Walliser Sonne und schalten Sie einfach mal 4 Tage ab.",
-        "services": [   "3 Übernachtungen für 2 Personen im Doppelzimmer Superior im Badehotel Salina Maris****",
-                        "reichhaltiges Frühstücksbuffet",
-                        "Benützung von Solbad, Sauna Dampfbad und Fitness",
-                        "pro Person eine Teilmassage à 25 Minuten",
-                        "pro Person eine Sitzung im Solarium"],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=13",
-    "active": true
+        "id": "gutscheinSA04",
+        "title": "Wander Weekend",
+        "subtitle": "2 Übernachtungen im Badehotel Salina Maris inkl. Wanderpass für 1 Tag",
+        "image": "images/Gutschein/GUT_WA.jpg",
+        "alt": "Zeichnung des Aletschgletschers",
+        "price": 556,
+        "categories": [
+            "Hotel",
+            "Weekend"
+        ],
+        "details": {
+            "description": "Wandern in der Aletsch Arena am längsten Gletscher der Alpen und Baden im grössten Wellnessbereich der Aletsch Arena.",
+            "services": [
+                "2 Übernachtungen für 2 Personen  im Doppelzimmer Superior im Badehotel Salina Maris****",
+                "reichhaltiges Frühstücksbuffet",
+                "Eintritt in Solebad, Sauna, Dampfbad und Fitness",
+                "1 Tages-Wanderpass der Aletsch Arena für 2 Personen"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=11",
+        "active": true
     },
     {
-    "title": "Vollmassage",
-    "subtitle": "Gutschein für eine Ganzkörpermassage (ca. 55 Min.) im Wellnesszentrum Breiten",
-    "image": "images/Gutschein/GUT_VM.jpg",
-    "alt": "Massage",
-    "price": 96,
-    "categories": ["Wellness"],
-    "details":{
-        "description": "Lassen Sie sich verwöhnen",
-        "services": [   "Gutschein für eine Ganzkörpermassage à ca. 55 Min.",
-                        "Einlösbar im Hotel Salina Maris****",
-                        "Einlösbar im Bade- und Wellnesszentrum Breiten"],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=14",
-    "active": true
-    },
-    {
-    "title": "Kosmetikbehandlung",
-    "subtitle": "Gutschein für eine Kosmetikbehandlung (70 Min,) im Wellnesszentrum Breiten",
-    "image": "images/Gutschein/GUT_KO.jpg",
-    "alt": "Kosmetikbehandlung",
-    "price": 110,
-    "categories": ["Wellness"],
-    "details":{
-        "description": "Nach Wahl von ca. 70 Minuten Dauer",
-        "services": [   "Gutschein für 70 Minuten Kosemtikbehandlung",
-                        "Einlösbar im Bade- und Wellnesszentrum Breiten"],
-        "info": "Bitte reservieren Sie ihr Rendez-vous im voraus unter der Telefonnummer +41 27 928 42 00."
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=16",
-    "active": true
+        "id": "gutscheinSA05",
+        "title": "Skiweekend",
+        "subtitle": "2 Übernachtungen im DZ Superior, 1 Tages-Skipass der Aletsch Arena",
+        "image": "images/Gutschein/GUT_SK.jpg",
+        "alt": "Skifahrer auf der Piste",
+        "price": 590,
+        "categories": [
+            "Hotel",
+            "Weekend"
+        ],
+        "details": {
+            "description": "In der Aletsch Arena warten über 100 km Skipisten auf Sie! Gleichzeitig profitieren Sie im Badehotel Salina Maris vom grössten Wellnessangebot in der Aletsch Arena.",
+            "services": [
+                "2 Übernachtungen für 2 Personen im Doppelzimmer Superior im Badehotel Salina Maris****",
+                "Reichhaltiges Frühstücksbuffet",
+                "Eintritt in Solebad, Sauna, Dampfbad und Fitness",
+                "1 Tages-Skipass der Aletsch Arena für 2 Personen"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=12",
+        "active": false
     },
     {
-    "title": "Lomi Lomi Massage",
-    "subtitle": "Gutschein für eine Lomi Lomi Massage (80 Min.) im Bade- und Wellnesszentrum Breiten",
-    "image": "images/Gutschein/GUT_LL.jpg",
-    "alt": "Massage",
-    "price": 150,
-    "categories": ["Wellness"],
-    "details":{
-        "description": "Lassen Sie sich bei einer hawaianischen Tempelmassage verwöhnen.",
-        "services": [   "Gutschein für eine Lomi Lomi Tempelmassage à ca. 80 Min.",
-                        "Einlösbar im Bade- und Wellnesszentrum Breiten"],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=15",
-    "active": true
-    },
-    {
-    "title": "Einzeleintritt Solbad Breiten",
-    "subtitle": "Gutschein für einen Einzeleintritt ins Bade- und Wellnesszentrum Breiten",
-    "image": "images/Gutschein/GUT_1S.jpg",
-    "alt": "Einzeleintritt Bad Salina Maris",
-    "price": 16,
-    "categories": ["Bad"],
-    "details":{
-        "description": "Ins Solebad Breiten (33° C, 3&percnt; Salzgehalt)",
-        "services": [   "Gutschein für einen Eintritt ins Soleheilbad Breiten",
-                        "Einlösbar im Bade- und Wellnesszentrum Breiten"],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=17",
-    "active": true
+        "id": "gutscheinSA06",
+        "title": "Wellness-Weekend",
+        "subtitle": "2 Übernachtungen für 2 Personen inkl. 2 Lomi Lomi Tempelmassagen",
+        "image": "images/Gutschein/GUT_WE.jpg",
+        "alt": "Paar im Solebad",
+        "price": 795,
+        "categories": [
+            "Hotel",
+            "Weekend"
+        ],
+        "details": {
+            "description": "Inkl. 1 Lomi Lomi Tempelmassage pro Person",
+            "services": [
+                "2 Übernachtungen für 2 Personen  im Doppelzimmer Superior im Badehotel Salina Maris****",
+                "reichhaltiges Frühstücksbuffet",
+                "Eintritt in Solebad, Sauna, Dampfbad und Fitness",
+                "Pro Person eine Lomi Lomi Tempelmassage à ca. 80 Min."
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=10",
+        "active": true
     },
     {
-    "title": "1 Einzeleintritt Bade- + Wellnesszentrum",
-    "subtitle": "1 Einzeleintritt Solbad, Sauna, Dampfbad + Fitness in Breiten",
-    "image": "images/Gutschein/GUT_1W.jpg",
-    "alt": "Einzeleintritt Bad und Wellness Salina Maris",
-    "price": 29,
-    "categories": ["Bad", "Wellness"],
-    "details":{
-        "description": "Solebad, Sauna, Dampfbad + Fitnessraum.",
-        "services": [   "Ein Eintritt ins Soleheilbad Breiten",
-                        "Eintritt Wellnessbereich mit Sauna + Dampfbad",
-                        "Eintritt Fitnessraum",
-                        "im Bade- und Wellnesszentrum Breiten"],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=18",
-    "active": true
-    },
-    {
-    "title": "10-er Abonnement Solbad",
-    "subtitle": "10 Eintritte ins Solebad im Bade- und Wellnesszentrum Breiten",
-    "image": "images/Gutschein/GUT_10S.jpg",
-    "alt": "10-er Abonnement Solbad Salina Maris",
-    "price": 150,
-    "categories": ["Bad"],
-    "details":{
-        "description": "Solebad + Fitnessraum Breiten.",
-        "services": [   "10 Eintritte ins Solebad + Fitnessraum",
-                        "im Bade- und Wellnesszentrum Breiten"],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=19",
-    "active": true
+        "id": "gutscheinSA07",
+        "title": "Zeitinsel Im Urmeer",
+        "subtitle": "3 Übernachtungen, Frühstücksubffet, Solbad, Wellness, Massage und Solarium",
+        "image": "images/Gutschein/GUT_ZEI.jpg",
+        "alt": "Steinmänner über dem Aletschgletscher",
+        "price": 822,
+        "categories": [
+            "Hotel"
+        ],
+        "details": {
+            "description": "Entspannen Sie im Urmeer in den Alpen, geniessen Sie die Walliser Sonne und schalten Sie einfach mal 4 Tage ab.",
+            "services": [
+                "3 Übernachtungen für 2 Personen im Doppelzimmer Superior im Badehotel Salina Maris****",
+                "reichhaltiges Frühstücksbuffet",
+                "Benützung von Solbad, Sauna Dampfbad und Fitness",
+                "pro Person eine Teilmassage à 25 Minuten",
+                "pro Person eine Sitzung im Solarium"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=13",
+        "active": true
     },
     {
-    "title": "10-er Abonnement Solbad + Wellness",
-    "subtitle": "10 Eintritte ins Bade- + Wellnesszentrum Breiten: Solbad, Sauna, Dampfbad, Fitness",
-    "image": "images/Gutschein/GUT_10W.jpg",
-    "alt": "10-er Abonnement Solbad + Wellness Salina Maris",
-    "price": 275,
-    "categories": ["Bad", "Wellness"],
-    "details":{
-        "description": "10 Eintritte Solbad, Sauna, Dampfbad + Fitness.",
-        "services": [   "10-er Abonnement",
-                        "Einlösbar im Bade- und Wellnesszentrum Breiten" ],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=20",
-    "active": true
-    },
-    {
-    "title": "10-er Abonnement Solbad ('Zone 2')",
-    "subtitle": "10 Eintrittes ins Solebad im Bade- und Wellnesszentrum Breiten (nur mit Ausweis Zone 2)",
-    "image": "images/Gutschein/GUT_S2.jpg",
-    "alt": "10-er Abonnement Solbad Zone 2 Salina Maris",
-    "price": 105,
-    "categories": ["Zone 2"],
-    "details":{
-        "description": "10-er Abonnement ‘Einheimisch’",
-        "services": [   "10 Eintritte ins Solebad + Fitnessraum",
-                        "im Bade- und Wellnesszentrum Breiten",
-                        "Gültig mit Ausweis Zone 2" ],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=21",
-    "active": true
+        "id": "gutscheinSA08",
+        "title": "Vollmassage",
+        "subtitle": "Gutschein für eine Ganzkörpermassage (ca. 55 Min.) im Wellnesszentrum Breiten",
+        "image": "images/Gutschein/GUT_VM.jpg",
+        "alt": "Massage",
+        "price": 96,
+        "categories": [
+            "Wellness"
+        ],
+        "details": {
+            "description": "Lassen Sie sich verwöhnen",
+            "services": [
+                "Gutschein für eine Ganzkörpermassage à ca. 55 Min.",
+                "Einlösbar im Hotel Salina Maris****",
+                "Einlösbar im Bade- und Wellnesszentrum Breiten"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=14",
+        "active": true
     },
     {
-    "title": "10-er Abonnement Solbad + Wellness ('Zone 2')",
-    "subtitle": "10-er Abonnement Solbad + Wellness (nur mit Ausweis Zone 2)",
-    "image": "images/Gutschein/GUT_SW2.jpg",
-    "alt": "10-er Abonnement Solbad + Wellness Zone 2 Salina Maris",
-    "price": 220,
-    "categories": ["Wellness","Zone 2"],
-    "details":{
-        "description": "10 Eintritte Solbad, Sauna, Dampfbad + Fitness.",
-        "services": [   "10-er Abonnement",
-                        "Einlösbar im Bade- und Wellnesszentrum Breiten",
-                        "Gültig mit Ausweis Zone 2" ],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=22",
-    "active": true
-    },
-    {
-    "title": "Gutschein für CHF 50",
-    "subtitle": "Wertgutschein einlösbar im Hotel Salina Maris oder im Wellnesszentrum Breiten",
-    "image": "images/Gutschein/GUT_50.jpg",
-    "alt": "Wertegutschein Salina Maris",
-    "price": 50,
-    "categories": ["Wertgutschein"],
-    "details":{
-        "description": "Wertgutschein CHF 50",
-        "services": [   "Gutschein im Werte von CHF 50",
-                        "Einlösbar im Hotel Salina Maris**** oder ",
-                        "im Bade- und Wellnesszentrum Breiten" ],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=24",
-    "active": true
+        "id": "gutscheinSA09",
+        "title": "Kosmetikbehandlung",
+        "subtitle": "Gutschein für eine Kosmetikbehandlung (70 Min,) im Wellnesszentrum Breiten",
+        "image": "images/Gutschein/GUT_KO.jpg",
+        "alt": "Kosmetikbehandlung",
+        "price": 110,
+        "categories": [
+            "Wellness"
+        ],
+        "details": {
+            "description": "Nach Wahl von ca. 70 Minuten Dauer",
+            "services": [
+                "Gutschein für 70 Minuten Kosemtikbehandlung",
+                "Einlösbar im Bade- und Wellnesszentrum Breiten"
+            ],
+            "info": "Bitte reservieren Sie ihr Rendez-vous im voraus unter der Telefonnummer +41 27 928 42 00."
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=16",
+        "active": true
     },
     {
-    "title": "Gutschein für CHF 100",
-    "subtitle": "Wertgutschein einlösbar im Hotel Salina Maris oder im Wellnesszentrum Breiten",
-    "image": "images/Gutschein/GUT_100.jpg",
-    "alt": "Wertegutschein Salina Maris",
-    "price": 100,
-    "categories": ["Wertgutschein"],
-    "details":{
-        "description": "Wertgutschein CHF 100",
-        "services": [   "Gutschein im Werte von CHF 100",
-                        "Einlösbar im Hotel Salina Maris**** oder ",
-                        "im Bade- und Wellnesszentrum Breiten" ],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=4",
-    "active": true
-    },
-    {
-    "title": "Gutschein für CHF 200",
-    "subtitle": "Wertgutschein einlösbar im Hotel Salina Maris oder im Wellnesszentrum Breiten",
-    "image": "images/Gutschein/GUT_200.jpg",
-    "alt": "Wertegutschein Salina Maris",
-    "price": 200,
-    "categories": ["Wertgutschein"],
-    "details":{
-        "description": "Wertgutschein CHF 200",
-        "services": [   "Gutschein im Werte von CHF 200",
-                        "Einlösbar im Hotel Salina Maris**** oder ",
-                        "im Bade- und Wellnesszentrum Breiten" ],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=25",
-    "active": true
+        "id": "gutscheinSA10",
+        "title": "Lomi Lomi Massage",
+        "subtitle": "Gutschein für eine Lomi Lomi Massage (80 Min.) im Bade- und Wellnesszentrum Breiten",
+        "image": "images/Gutschein/GUT_LL.jpg",
+        "alt": "Massage",
+        "price": 150,
+        "categories": [
+            "Wellness"
+        ],
+        "details": {
+            "description": "Lassen Sie sich bei einer hawaianischen Tempelmassage verwöhnen.",
+            "services": [
+                "Gutschein für eine Lomi Lomi Tempelmassage à ca. 80 Min.",
+                "Einlösbar im Bade- und Wellnesszentrum Breiten"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=15",
+        "active": true
     },
     {
-    "title": "Gutschein für CHF 250",
-    "subtitle": "Wertgutschein einlösbar im Hotel Salina Maris oder im Wellnesszentrum Breiten",
-    "image": "images/Gutschein/GUT_250.jpg",
-    "alt": "Wertegutschein Salina Maris",
-    "price": 250,
-    "categories": ["Wertgutschein"],
-    "details":{
-        "description": "Wertgutschein CHF 250",
-        "services": [   "Gutschein im Werte von CHF 250",
-                        "Einlösbar im Hotel Salina Maris**** oder ",
-                        "im Bade- und Wellnesszentrum Breiten" ],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=5",
-    "active": true
-    },
-    {
-    "title": "Gutschein für CHF 350",
-    "subtitle": "Wertgutschein einlösbar im Hotel Salina Maris oder im Wellnesszentrum Breiten",
-    "image": "images/Gutschein/GUT_350.jpg",
-    "alt": "Wertegutschein Salina Maris",
-    "price": 350,
-    "categories": ["Wertgutschein"],
-    "details":{
-        "description": "Wertgutschein CHF 350",
-        "services": [   "Gutschein im Werte von CHF 350",
-                        "Einlösbar im Hotel Salina Maris**** oder ",
-                        "im Bade- und Wellnesszentrum Breiten" ],
-        "info": " "
-    },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=26",
-    "active": true
+        "id": "gutscheinSA11",
+        "title": "Einzeleintritt Solbad Breiten",
+        "subtitle": "Gutschein für einen Einzeleintritt ins Bade- und Wellnesszentrum Breiten",
+        "image": "images/Gutschein/GUT_1S.jpg",
+        "alt": "Einzeleintritt Bad Salina Maris",
+        "price": 16,
+        "categories": [
+            "Bad"
+        ],
+        "details": {
+            "description": "Ins Solebad Breiten (33° C, 3&percnt; Salzgehalt)",
+            "services": [
+                "Gutschein für einen Eintritt ins Soleheilbad Breiten",
+                "Einlösbar im Bade- und Wellnesszentrum Breiten"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=17",
+        "active": true
     },
     {
-    "title": "Gutschein für CHF 500",
-    "subtitle": "Wertgutschein einlösbar im Hotel Salina Maris oder im Wellnesszentrum Breiten",
-    "image": "images/Gutschein/GUT_500.jpg",
-    "alt": "Wertegutschein Salina Maris",
-    "price": 500,
-    "categories": ["Wertgutschein"],
-    "details":{
-        "description": "Wertgutschein CHF 500",
-        "services": [   "Gutschein im Werte von CHF 500",
-                        "Einlösbar im Hotel Salina Maris**** oder ",
-                        "im Bade- und Wellnesszentrum Breiten" ],
-        "info": " "
+        "id": "gutscheinSA12",
+        "title": "1 Einzeleintritt Bade- + Wellnesszentrum",
+        "subtitle": "1 Einzeleintritt Solbad, Sauna, Dampfbad + Fitness in Breiten",
+        "image": "images/Gutschein/GUT_1W.jpg",
+        "alt": "Einzeleintritt Bad und Wellness Salina Maris",
+        "price": 29,
+        "categories": [
+            "Bad",
+            "Wellness"
+        ],
+        "details": {
+            "description": "Solebad, Sauna, Dampfbad + Fitnessraum.",
+            "services": [
+                "Ein Eintritt ins Soleheilbad Breiten",
+                "Eintritt Wellnessbereich mit Sauna + Dampfbad",
+                "Eintritt Fitnessraum",
+                "im Bade- und Wellnesszentrum Breiten"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=18",
+        "active": true
     },
-    "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=6",
-    "active": true
+    {
+        "id": "gutscheinSA13",
+        "title": "10-er Abonnement Solbad",
+        "subtitle": "10 Eintritte ins Solebad im Bade- und Wellnesszentrum Breiten",
+        "image": "images/Gutschein/GUT_10S.jpg",
+        "alt": "10-er Abonnement Solbad Salina Maris",
+        "price": 150,
+        "categories": [
+            "Bad"
+        ],
+        "details": {
+            "description": "Solebad + Fitnessraum Breiten.",
+            "services": [
+                "10 Eintritte ins Solebad + Fitnessraum",
+                "im Bade- und Wellnesszentrum Breiten"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=19",
+        "active": true
+    },
+    {
+        "id": "gutscheinSA14",
+        "title": "10-er Abonnement Solbad + Wellness",
+        "subtitle": "10 Eintritte ins Bade- + Wellnesszentrum Breiten: Solbad, Sauna, Dampfbad, Fitness",
+        "image": "images/Gutschein/GUT_10W.jpg",
+        "alt": "10-er Abonnement Solbad + Wellness Salina Maris",
+        "price": 275,
+        "categories": [
+            "Bad",
+            "Wellness"
+        ],
+        "details": {
+            "description": "10 Eintritte Solbad, Sauna, Dampfbad + Fitness.",
+            "services": [
+                "10-er Abonnement",
+                "Einlösbar im Bade- und Wellnesszentrum Breiten"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=20",
+        "active": true
+    },
+    {
+        "id": "gutscheinSA15",
+        "title": "10-er Abonnement Solbad ('Zone 2')",
+        "subtitle": "10 Eintrittes ins Solebad im Bade- und Wellnesszentrum Breiten (nur mit Ausweis Zone 2)",
+        "image": "images/Gutschein/GUT_S2.jpg",
+        "alt": "10-er Abonnement Solbad Zone 2 Salina Maris",
+        "price": 105,
+        "categories": [
+            "Zone 2"
+        ],
+        "details": {
+            "description": "10-er Abonnement ‘Einheimisch’",
+            "services": [
+                "10 Eintritte ins Solebad + Fitnessraum",
+                "im Bade- und Wellnesszentrum Breiten",
+                "Gültig mit Ausweis Zone 2"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=21",
+        "active": true
+    },
+    {
+        "id": "gutscheinSA16",
+        "title": "10-er Abonnement Solbad + Wellness ('Zone 2')",
+        "subtitle": "10-er Abonnement Solbad + Wellness (nur mit Ausweis Zone 2)",
+        "image": "images/Gutschein/GUT_SW2.jpg",
+        "alt": "10-er Abonnement Solbad + Wellness Zone 2 Salina Maris",
+        "price": 220,
+        "categories": [
+            "Wellness",
+            "Zone 2"
+        ],
+        "details": {
+            "description": "10 Eintritte Solbad, Sauna, Dampfbad + Fitness.",
+            "services": [
+                "10-er Abonnement",
+                "Einlösbar im Bade- und Wellnesszentrum Breiten",
+                "Gültig mit Ausweis Zone 2"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=22",
+        "active": true
+    },
+    {
+        "id": "gutscheinSA17",
+        "title": "Gutschein für CHF 50",
+        "subtitle": "Wertgutschein einlösbar im Hotel Salina Maris oder im Wellnesszentrum Breiten",
+        "image": "images/Gutschein/GUT_50.jpg",
+        "alt": "Wertegutschein Salina Maris",
+        "price": 50,
+        "categories": [
+            "Wertgutschein"
+        ],
+        "details": {
+            "description": "Wertgutschein CHF 50",
+            "services": [
+                "Gutschein im Werte von CHF 50",
+                "Einlösbar im Hotel Salina Maris**** oder ",
+                "im Bade- und Wellnesszentrum Breiten"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=24",
+        "active": true
+    },
+    {
+        "id": "gutscheinSA18",
+        "title": "Gutschein für CHF 100",
+        "subtitle": "Wertgutschein einlösbar im Hotel Salina Maris oder im Wellnesszentrum Breiten",
+        "image": "images/Gutschein/GUT_100.jpg",
+        "alt": "Wertegutschein Salina Maris",
+        "price": 100,
+        "categories": [
+            "Wertgutschein"
+        ],
+        "details": {
+            "description": "Wertgutschein CHF 100",
+            "services": [
+                "Gutschein im Werte von CHF 100",
+                "Einlösbar im Hotel Salina Maris**** oder ",
+                "im Bade- und Wellnesszentrum Breiten"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=4",
+        "active": true
+    },
+    {
+        "id": "gutscheinSA19",
+        "title": "Gutschein für CHF 200",
+        "subtitle": "Wertgutschein einlösbar im Hotel Salina Maris oder im Wellnesszentrum Breiten",
+        "image": "images/Gutschein/GUT_200.jpg",
+        "alt": "Wertegutschein Salina Maris",
+        "price": 200,
+        "categories": [
+            "Wertgutschein"
+        ],
+        "details": {
+            "description": "Wertgutschein CHF 200",
+            "services": [
+                "Gutschein im Werte von CHF 200",
+                "Einlösbar im Hotel Salina Maris**** oder ",
+                "im Bade- und Wellnesszentrum Breiten"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=25",
+        "active": true
+    },
+    {
+        "id": "gutscheinSA20",
+        "title": "Gutschein für CHF 250",
+        "subtitle": "Wertgutschein einlösbar im Hotel Salina Maris oder im Wellnesszentrum Breiten",
+        "image": "images/Gutschein/GUT_250.jpg",
+        "alt": "Wertegutschein Salina Maris",
+        "price": 250,
+        "categories": [
+            "Wertgutschein"
+        ],
+        "details": {
+            "description": "Wertgutschein CHF 250",
+            "services": [
+                "Gutschein im Werte von CHF 250",
+                "Einlösbar im Hotel Salina Maris**** oder ",
+                "im Bade- und Wellnesszentrum Breiten"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=5",
+        "active": true
+    },
+    {
+        "id": "gutscheinSA21",
+        "title": "Gutschein für CHF 350",
+        "subtitle": "Wertgutschein einlösbar im Hotel Salina Maris oder im Wellnesszentrum Breiten",
+        "image": "images/Gutschein/GUT_350.jpg",
+        "alt": "Wertegutschein Salina Maris",
+        "price": 350,
+        "categories": [
+            "Wertgutschein"
+        ],
+        "details": {
+            "description": "Wertgutschein CHF 350",
+            "services": [
+                "Gutschein im Werte von CHF 350",
+                "Einlösbar im Hotel Salina Maris**** oder ",
+                "im Bade- und Wellnesszentrum Breiten"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=26",
+        "active": true
+    },
+    {
+        "id": "gutscheinSA22",
+        "title": "Gutschein für CHF 500",
+        "subtitle": "Wertgutschein einlösbar im Hotel Salina Maris oder im Wellnesszentrum Breiten",
+        "image": "images/Gutschein/GUT_500.jpg",
+        "alt": "Wertegutschein Salina Maris",
+        "price": 500,
+        "categories": [
+            "Wertgutschein"
+        ],
+        "details": {
+            "description": "Wertgutschein CHF 500",
+            "services": [
+                "Gutschein im Werte von CHF 500",
+                "Einlösbar im Hotel Salina Maris**** oder ",
+                "im Bade- und Wellnesszentrum Breiten"
+            ],
+            "info": " "
+        },
+        "link": "//salina-maris.crm4u.ch/stripe-product/generate-form.js?id=6",
+        "active": true
     }
 ]

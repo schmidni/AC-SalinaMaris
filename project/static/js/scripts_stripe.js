@@ -9,15 +9,18 @@ for (let i = 0; i<button.length; i++){
         .then((data) => {
             var stripe = Stripe(data.checkout_public_key);
             stripe.redirectToCheckout({
-                // Make the id field from the Checkout Session creation API response
-                // available to this file, so you can provide it as parameter here
-                // instead of the {{CHECKOUT_SESSION_ID}} placeholder.
                 sessionId: data.checkout_session_id
             }).then(function (result) {
-                // If `redirectToCheckout` fails due to a browser or network
-                // error, display the localized error message to your customer
-                // using `result.error.message`.
-            });
+                // If redirectToCheckout fails due to a browser or network
+                // error, you should display the localized error message to your
+                // customer using error.message.
+                if (result.error) {
+                  alert(result.error.message);
+                }
+              })
+              .catch(function (error) {
+                console.error("Error:", error);
+              });
         })
     });
 
