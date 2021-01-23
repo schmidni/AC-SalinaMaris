@@ -193,4 +193,5 @@ def parse_checkout_session(session, all_products):
     except:
         parsed_data['customer'] = stripe.util.convert_to_dict(
             session['customer_details'])
+
     return parsed_data
