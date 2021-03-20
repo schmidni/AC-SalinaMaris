@@ -10,7 +10,7 @@ Flask-WTF==0.14.3
 idna==2.10
 isort==5.7.0
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 jsmin==2.2.2
 lazy-object-proxy==1.4.3
 MarkupSafe==1.1.1
